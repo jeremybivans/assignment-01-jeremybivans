@@ -1,0 +1,2 @@
+class TeacherOffice < ApplicationRecord
+end

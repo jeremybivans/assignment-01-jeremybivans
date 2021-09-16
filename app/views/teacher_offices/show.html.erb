@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Building name:</strong>
+  <%= @teacher_office.building_name %>
+</p>
+
+<p>
+  <strong>Room number:</strong>
+  <%= @teacher_office.room_number %>
+</p>
+
+<p>
+  <strong>Floor number:</strong>
+  <%= @teacher_office.floor_number %>
+</p>
+
+<%= link_to 'Edit', edit_teacher_office_path(@teacher_office) %> |
+<%= link_to 'Back', teacher_offices_path %>
